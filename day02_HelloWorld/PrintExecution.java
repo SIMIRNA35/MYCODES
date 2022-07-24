@@ -15,6 +15,13 @@ public class PrintExecution {
         System.out.println("Cydeo");
 
 
+
+        String str1 = "the fox ran under the bridge";
+
+        str1 = str1.substring(4, 17);
+        str1.toUpperCase();
+
+        System.out.println(str1 + "ground");
     }
 
 
