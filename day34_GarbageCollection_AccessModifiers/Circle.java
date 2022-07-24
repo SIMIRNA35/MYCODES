@@ -1,4 +1,4 @@
-package day34_GarbageCollection_Access;
+package day34_GarbageCollection_AccessModifiers;
 
 import java.util.ArrayList;
 

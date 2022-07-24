@@ -1,4 +1,4 @@
-package day34_GarbageCollection_Access;
+package day34_GarbageCollection_AccessModifiers;
 
 public class Test_Circle {
 
