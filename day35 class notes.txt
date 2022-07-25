@@ -8,7 +8,7 @@ warmup tasks:
 			Variables:
 				name, age, gender, language, planet, isHuman, hasNose, numberOfWings, numberOfHead
 
-			Add a constructor to initialize all the fields
+			Add a constructor to initialze all the fields
 
 			Add a static block to initialize all the statics
 
