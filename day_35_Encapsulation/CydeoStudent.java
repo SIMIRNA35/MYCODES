@@ -18,10 +18,7 @@ public class CydeoStudent {
         this.age = age;
         this.batchNumber = batchNumber;
         this.groupNumber = groupNumber;
-        this.fieldOfStudy = fieldOfStudy;
-        this.programmingLanguage = programmingLanguage;
-        this.secretCode = secretCode;
-    }
+        this.fieldOfStudy = fieldOfStudy; }
 
     static {
         schoolName = "Cydeo";
@@ -41,10 +38,19 @@ public class CydeoStudent {
     public void attendClass(){
         System.out.println(name + " is attending class. ");
     }
+    public void studying(){
+        System.out.println(name + " is studying. "); }
 
-
-
-
+    public String toString() {
+        return "CydeoStudent{" +
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", batchNumber=" + batchNumber +
+                ", groupNumber=" + groupNumber +
+                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                '}';
+    }
 }
 /*
 2. create a class named CybertekStudent
