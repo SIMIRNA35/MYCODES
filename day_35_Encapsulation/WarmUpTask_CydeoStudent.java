@@ -1,6 +1,6 @@
 package day_35_Encapsulation;
 
-public class CydeoStudent {
+public class WarmUpTask_CydeoStudent {
 
     public String name;
     public char gender;
@@ -11,8 +11,8 @@ public class CydeoStudent {
     public static String programmingLanguage;
     public static String secretCode ;
 
-    public CydeoStudent(String name, char gender, int age, int batchNumber, int groupNumber,
-                        String fieldOfStudy, String programmingLanguage, int secretCode) {
+    public WarmUpTask_CydeoStudent(String name, char gender, int age, int batchNumber, int groupNumber,
+                                   String fieldOfStudy, String programmingLanguage, int secretCode) {
         this.name = name;
         this.gender = gender;
         this.age = age;
@@ -48,7 +48,9 @@ public class CydeoStudent {
                 ", age=" + age +
                 ", batchNumber=" + batchNumber +
                 ", groupNumber=" + groupNumber +
-                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                 ", fieldOfStudy='" + fieldOfStudy + '\''+
+                ", schoollname ='" + schoolName + '\''+
+                ", secretcode='" + secretCode + '\''+
                 '}';
     }
 }
