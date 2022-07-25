@@ -2,68 +2,30 @@ package day_35_Encapsulation;
 
 public class Person {
 
-    public String name;
-    public int age ;
-    public char gender;
-    public String language ;
+    private String name;
+    private int age;
 
-    public static String planet ;
-    public static boolean ishUman ,hasNose ;
-    public static  int numberOfWings ;
-    public static int numberofHead ;
+    public String getName() {
+        return name;
+    }
 
-    // ExcelSheet =
-
-    public Person(String name, int age, char gender, String language) {
+    public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+
+        if (age <= 0) {
+            System.out.println("Invalid Age:" + age);
+        }
+
+
         this.age = age;
-        this.gender = gender;
-        this.language = language;
-
-    }
-        static {
-            planet = "Earth";
-            ishUman = true;
-            hasNose = true;
-            numberOfWings = 0;
-            numberofHead = 1 ;
-    }
-
-    public static void printPlanetName(){
-        System.out.println("Planet name is : " + planet);
-
-    }
-    public void eat(String food) {
-        System.out.println(name + " is eating"+ food);
-    }
 
 
-    public void drink(String drink){
-        System.out.println(name + " is drinking"+ drink);
-    }
-
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", gender=" + gender +
-                ", language='" + language + '\'' +
-                ", planet='" + planet + '\'' +
-                '}';
     }
 }
-/*
-1. Create a class named Person:
-			Variables:
-				name, age, gender, language, planet, isHuman, hasNose, numberOfWings, numberOfHead
-
-			Add a constructor to initialze all the fields
-
-			Add a static block to initialize all the statics
-
-			Methods:
-				printPlanetName()
-				eat(String food)
-				drink(String drink)
-				toString()
- */
