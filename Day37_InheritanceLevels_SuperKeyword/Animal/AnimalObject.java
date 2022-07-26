@@ -1,6 +1,4 @@
-package Day37_OOPInheritanceContinue_SuperKeyword.Animal;
-
-import java.util.concurrent.Callable;
+package Day37_InheritanceLevels_SuperKeyword.Animal;
 
 public class AnimalObject {
     public static void main(String[] args) {

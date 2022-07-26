@@ -1,4 +1,4 @@
-package Day37_OOPInheritanceContinue_SuperKeyword.Animal;
+package Day37_InheritanceLevels_SuperKeyword.Animal;
 
 public class Dog extends  Animal{
 

@@ -1,4 +1,4 @@
-package Day37_OOPInheritanceContinue_SuperKeyword.Animal;
+package Day37_InheritanceLevels_SuperKeyword.Animal;
 
 public class Cat extends Animal {
     public Cat(String name, String breed, char gender, int age, String size, String color) {
