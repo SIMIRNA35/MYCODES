@@ -92,7 +92,7 @@ Task:
 			bark()
 
 	Cat extends Animal:
-			scratch()
+			scratch()d
 
 	Tiger extends Animal:
 			roar()
