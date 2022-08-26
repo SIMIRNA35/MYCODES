@@ -1,4 +1,4 @@
-package day38_OopInheritanceContinueMethodOverriding;
+package day38_Inheritance_Overriding.CarTask;
 
 public class Car {
    public String brand, model ;
@@ -16,14 +16,14 @@ public class Car {
       this.miles = miles;
    }
    public void start(){
-      System.out.println( brand + model +"starts auto-engine");
+      System.out.println( brand +" "+ model +" starts auto-engine");
 
 
    }
 
 
    public  void drive(){
-      System.out.println( color + brand + model + "drives" + miles + "in a 1 hour");
+      System.out.println( color + " " + brand+  " "+ model + " drives " + miles + " in a 1 hour");
    }
 
    public String toString() {
@@ -36,6 +36,8 @@ public class Car {
               ", miles = " + miles +
               '}';
    }
+
+
 }
 
 
