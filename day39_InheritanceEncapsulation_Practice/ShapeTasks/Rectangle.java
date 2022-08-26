@@ -31,9 +31,9 @@ public class Rectangle extends Shape {
             System.err.println("Invalid Width : " + width);
             System.exit(1);
 
-            this.width = width;
-        }
 
+        }
+        this.width = width;
     }
 
     public double area() {
@@ -47,10 +47,10 @@ public class Rectangle extends Shape {
     @Override
     public String toString() {
         return "Rectangle{" +
-                "length=" + length +
-                ", width=" + width +
-                ", area=" + area() +
-                ", perimeter =" + perimeter() +
+                "length = " + " " + length +
+                ", width =" + " " + width +
+                ", area=" + " " +  area() +
+                ", perimeter =" + " " + perimeter() +
                 '}';
 
     }
