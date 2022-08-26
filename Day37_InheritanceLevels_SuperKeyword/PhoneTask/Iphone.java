@@ -9,8 +9,8 @@ public class Iphone extends Phone{
 
         //Iphone iphone13 = new Iphone("Iphone13","ProMax",854.45,"Red" );
 
-    public void faceTime(long phoneNumber){
-        System.out.println( brand + " "+ model + " is having faceTime with email: " + phoneNumber);
+    public void faceTime(){
+        System.out.println( brand + " "+ model + " is having faceTime with email: " );
     }
     public void faceTime(String email) {
         System.out.println(brand + " " + model + " is having faceTime with email: " + email);
