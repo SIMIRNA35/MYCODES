@@ -1,4 +1,4 @@
-package day_35_Encapsulation;
+package day35_Encapsulation;
 
 public class HaliObjects {
     public static void main(String[] args) {

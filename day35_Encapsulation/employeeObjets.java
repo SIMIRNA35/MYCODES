@@ -1,6 +1,4 @@
-package day_35_Encapsulation;
-
-import java.util.Arrays;
+package day35_Encapsulation;
 
 public class employeeObjets {
     public static void main(String[] args) {
