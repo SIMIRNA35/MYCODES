@@ -1,4 +1,4 @@
-package day39_InheritanceEncapsulation_Practice.PersonTask;
+package day39_InheritanceEncapsulation_Practice.CydeoTask;
 
 public class Employee extends Person {
     private int employeeId ;
@@ -47,11 +47,11 @@ public class Employee extends Person {
     public String toString() {
         return "Employee{" +
                 "name='"+ " " + getName() + '\'' +
-                ", age=" + " "+ getAge() +
-                ", gender=" + " " + getGender() +
-                 "employeeId=" + " "+ employeeId +
-                ", jobTitle='" + " "+ jobTitle + '\'' +
-                ", salary="+ " " + salary +
+                ",age="+ " "+ getAge() + " "+
+                ",Gender=" + " "+getGender() + " " +
+                 "employeeId='" + " " +  employeeId + " "+
+                ",jobTitle ='" + " "+ jobTitle + '\'' + " " +
+                ",salary="+ " " + salary + " " +
                 '}';
     }
 }

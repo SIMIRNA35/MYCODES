@@ -1,4 +1,4 @@
-package day39_InheritanceEncapsulation_Practice.PersonTask;
+package day39_InheritanceEncapsulation_Practice.CydeoTask;
 
 public class Person {
     private String name;
@@ -36,10 +36,6 @@ public class Person {
     }
 
     public void setGender(char gender) {
-        if (gender == 'M' || gender == 'F'){
-            System.err.println("Invalid gender : " + gender );
-            System.exit(1);
-        }
         this.gender = gender;
     }
 
