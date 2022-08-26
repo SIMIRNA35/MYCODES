@@ -1,4 +1,4 @@
-package Day44_Abstraction_Interface.AnimalTask;
+package Day44_Abstraction_Interface;
 
 public abstract class Animal {
 
@@ -78,7 +78,7 @@ public abstract class Animal {
         System.out.println( name + " is drinks water");
     }
 
-    @Override
+     @Override
     public String toString() {
         return "Animal{" +
                 "name='" + name + '\'' +
