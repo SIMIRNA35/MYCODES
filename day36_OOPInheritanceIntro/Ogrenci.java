@@ -3,23 +3,20 @@ package day36_OOPInheritanceIntro;
 public class Ogrenci {
      /* 1) What is Encapsulation?
     // Encapsulation : DATA HIDING and is a data storage method used to protect sensitive data */
+    private String	name;            //2) How do we store data?
+    private int  age ;                          //We store data using private access modifier.
+    private char gender,grade;
+    private String  schoolName ;
 
-      public Ogrenci(String name, int age, char gender, char grade, String schoolName) {
+    public Ogrenci(String name, int age, char gender, char grade, String schoolName) {
         setName(name);
         setAge(age);
         setGender(gender);
         setGrade(grade);
         setSchoolName(schoolName);
     }
-
-    private String	name;            //2) How do we store data?
-    private int  age ;                          //We store data using private access modifier.
-    private char gender,grade;
-    private String  schoolName ;
-
     /* 3) Can we access the stored data from other classes?
      Yes. We can reach it using getter and setter methods */
-
 
    /* 4) What does the getter(Read only) method do.
    It allows us to read the stored data. */
@@ -33,8 +30,6 @@ public class Ogrenci {
 
     /* 5) What does the setter(Write Only) method do?
      It allows us to update the stored data through the object. */
-
-
 
     public void setName(String name){    //  Public Instance Method
 
