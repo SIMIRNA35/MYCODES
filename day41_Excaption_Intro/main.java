@@ -1,7 +1,6 @@
 package day41_Excaption_Intro;
-
+/*
 public class main {
-
 
     public Test(){
         System.out.print("A");
@@ -21,7 +20,7 @@ public class main {
 
     }
 
-
+*/
 
 
 
